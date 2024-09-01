@@ -1,0 +1,150 @@
+main {
+    display: flex;
+    margin-top: 28px;
+}
+
+#video-central {
+    display: flex;
+    flex-direction: column;
+    width: 952px;
+    height: 746px;
+    margin-left: 75px;
+    gap: 16px;
+    margin-right: 25px;
+}
+
+#video-central h1 {
+    font-size: 20px;
+    font-family: "Roboto", sans-serif;
+    line-height: 23.44px;
+}
+
+#video-central-action {
+    display: flex;
+    justify-content: space-between;
+    width: 902px;
+    height: 42px;
+    gap: 42px;
+    margin-bottom: 16px;
+}
+
+.video-central-action--item {
+    display: flex;
+    justify-content: space-between;
+    margin-right: 42px;
+}
+
+.item-dio {
+    width: 160px;
+    height: 42px;
+    gap: 12px;
+    align-items: center;
+}
+
+.item-dio p {
+    width: 106px;
+    height: 32px;
+    font-family: "Roboto", sans-serif;
+    font-size: 14px;
+    font-weight: 600;
+    line-height: 16.41px;
+}
+
+.item-dio p span {
+    font-family: "Roboto", sans-serif;
+    font-size: 14px;
+    display: block;
+    font-weight: 400;
+    line-height: 16.41px;
+}
+
+.video-central-action--item button {
+    width: 159px;
+    height: 40px;
+    border: 1px solid #cc0000;
+    border-radius: 2px;
+    background-color: #cc0000;
+    font-family: "Roboto", sans-serif;
+    font-size: 14px;
+    font-weight: 600;
+    line-height: 16.41px;
+    color: #ffffff;
+}
+
+.like {
+    width: 63px;
+    height: 24px;
+    gap: 8px;
+    align-items: center;
+    margin: 9px 0px;
+}
+
+.like p {
+    /*     width: 31px;
+    height: 16px; */
+    font-family: "Roboto", sans-serif;
+    font-size: 14px;
+    font-weight: 600;
+    line-height: 16.41px;
+}
+
+.deslike {
+    width: 100px;
+    height: 24px;
+    gap: 8px;
+    align-items: center;
+    margin: 9px 0px;
+}
+
+.deslike p {
+    /*     width: 31px;
+    height: 16px; */
+    font-family: "Roboto", sans-serif;
+    font-size: 14px;
+    font-weight: 600;
+}
+
+.share {
+    width: 115px;
+    height: 24px;
+    gap: 8px;
+    align-items: center;
+    margin: 9px 0px;
+}
+
+.share p {
+    font-family: "Roboto", sans-serif;
+    font-size: 14px;
+    font-weight: 600;
+}
+
+.download {
+    width: 95px;
+    height: 24px;
+    gap: 8px;
+    align-items: center;
+    margin: 9px 0px;
+}
+
+.download p {
+    font-family: "Roboto", sans-serif;
+    font-size: 14px;
+    font-weight: 600;
+}
+
+#video-central p{
+    font-family: "Roboto", sans-serif;
+    font-size: 14px;
+    font-weight: 600;
+    line-height: 16.41px;
+}
+
+.descrition {
+    width: 510px;
+    height: 64px;
+    color: #515151;
+}
+
+/* aside {
+    display: flex;
+} */

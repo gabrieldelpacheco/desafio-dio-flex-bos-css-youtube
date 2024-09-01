@@ -1,0 +1,53 @@
+header {
+    
+    height: 56px;
+    display: flex;
+    justify-content: space-between;
+    padding: 0px 24px;
+    background-color: #ffffff;
+}
+
+.menu-left {
+    width: 146px;
+    height: 24px;
+    display: flex;
+    justify-content: space-between;
+    margin: 16px 0px 16px 24px
+}
+
+.menu-central {
+    display: flex;
+    justify-content: center;
+    margin: 8px 0px;
+}
+
+.menu-central--digitacao {
+    width: 348px;
+    height: 40px;
+    color: #ffffff;
+    border: 1px solid #cccccc;
+}
+
+.menu-central--lupa {
+    width: 57px;
+    height: 40px;
+    background-color: #cccccc;
+    border: 1px solid #cccccc;
+    text-align: center;
+}
+
+.menu-central--lupa {
+    padding: 8px 19px 8px 14px;
+}
+
+.menu-right {
+    width: 130px;
+    height: 34px;
+    display: flex;
+    justify-content: space-between;
+    margin: 11px 24px 11px 0px;
+}
+
+.menu-right img {
+    margin-right: 24px;
+}
