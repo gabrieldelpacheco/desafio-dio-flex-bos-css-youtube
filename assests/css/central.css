@@ -24,38 +24,26 @@ main {
     justify-content: space-between;
     width: 902px;
     height: 42px;
-    gap: 42px;
-    margin-bottom: 16px;
 }
 
 .video-central-action--item {
     display: flex;
     justify-content: space-between;
-    margin-right: 42px;
 }
 
 .item-dio {
     width: 160px;
-    height: 42px;
-    gap: 12px;
     align-items: center;
 }
 
 .item-dio p {
-    width: 106px;
-    height: 32px;
-    font-family: "Roboto", sans-serif;
-    font-size: 14px;
-    font-weight: 600;
-    line-height: 16.41px;
+    color: #515151;
+    font-weight: 400;
 }
 
-.item-dio p span {
-    font-family: "Roboto", sans-serif;
-    font-size: 14px;
+.item-dio span {
+    color: #000000;
     display: block;
-    font-weight: 400;
-    line-height: 16.41px;
 }
 
 .video-central-action--item button {
@@ -72,71 +60,29 @@ main {
 }
 
 .like {
-    width: 63px;
-    height: 24px;
     gap: 8px;
     align-items: center;
-    margin: 9px 0px;
-}
-
-.like p {
-    /*     width: 31px;
-    height: 16px; */
-    font-family: "Roboto", sans-serif;
-    font-size: 14px;
-    font-weight: 600;
-    line-height: 16.41px;
 }
 
 .deslike {
-    width: 100px;
-    height: 24px;
     gap: 8px;
     align-items: center;
-    margin: 9px 0px;
-}
-
-.deslike p {
-    /*     width: 31px;
-    height: 16px; */
-    font-family: "Roboto", sans-serif;
-    font-size: 14px;
-    font-weight: 600;
 }
 
 .share {
-    width: 115px;
-    height: 24px;
     gap: 8px;
     align-items: center;
-    margin: 9px 0px;
-}
-
-.share p {
-    font-family: "Roboto", sans-serif;
-    font-size: 14px;
-    font-weight: 600;
 }
 
 .download {
-    width: 95px;
-    height: 24px;
     gap: 8px;
     align-items: center;
-    margin: 9px 0px;
-}
-
-.download p {
-    font-family: "Roboto", sans-serif;
-    font-size: 14px;
-    font-weight: 600;
 }
 
 #video-central p{
     font-family: "Roboto", sans-serif;
     font-size: 14px;
     font-weight: 600;
-    line-height: 16.41px;
 }
 
 .descrition {
@@ -144,7 +90,3 @@ main {
     height: 64px;
     color: #515151;
 }
-
-/* aside {
-    display: flex;
-} */
