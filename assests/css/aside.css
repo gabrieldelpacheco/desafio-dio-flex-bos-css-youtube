@@ -1,7 +1,5 @@
 aside {
-    width: 372px;
-    height: 938px;
-    display: flex;
+/*     width: 372px; */
     flex-direction: column;
     gap: 16px;
 }
@@ -11,28 +9,22 @@ aside {
 }
 
 .aside-bar-descrition img {
-    width: 160px;
     height: 90px;
 }
 
 .aside-bar-descrition--informacao {
-    width: 196px;
     height: 89px;
     margin: 0px 16px 17px 16px;
 }
 
 .aside-bar-descrition--informacao h3 {
     font-family: "Roboto", sans-serif;
-    font-weight: 600;
     font-size: 14px;
-    line-height: 16.41px;
     margin-bottom: 8px;
 }
 
 .aside-bar-descrition--informacao p {
     font-family: "Roboto", sans-serif;
-    font-weight: 400;
     font-size: 12px;
-    line-height: 14.06px;
     margin-bottom: 7px;
 }
